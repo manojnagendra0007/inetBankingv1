@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 18.996 sec <<< FAILURE! - in TestSuite
+logintest(com.inetBankingv1.testCases.TC_LoginTest_001)  Time elapsed: 7.945 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.inetBankingv1.testCases.TC_LoginTest_001.logintest(TC_LoginTest_001.java:36)
+
+addNewCustomer(com.inetBankingv1.testCases.TC_AddCustomerTest_002)  Time elapsed: 5.432 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: null
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.inetBankingv1.testCases.TC_AddCustomerTest_002.addNewCustomer(TC_AddCustomerTest_002.java:38)
+
